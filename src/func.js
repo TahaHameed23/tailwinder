@@ -18,7 +18,7 @@ export const installTailwind = async () => {
 export const initTailwind = async () => {
     try {
         let data = fs.readFileSync("tailwind.config.js", "utf8");
-        data = data.replace(/content: \[\]/g, "content: ['./**/*.html']");
+        data = data.replace(/content: \[\]/g, "content: ['./**/*.html,.jsx']");
         fs.writeFileSync("tailwind.config.js", data);
 
         if (!fs.existsSync("./dist")) {

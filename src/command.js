@@ -9,7 +9,7 @@ yargsInteractive(hideBin(process.argv))
     .usage("$0 <cmd>")
     .command(
         ["install", "i"],
-        "\tInstall & initialize tailwindcss in current directory",
+        "\tinstall & initialize tailwindcss in current directory",
         () => {},
         async () => {
             const spinner = cliSpinners.dots12;
