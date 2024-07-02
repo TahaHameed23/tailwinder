@@ -1,0 +1,24 @@
+{
+    "name": "tailwinder",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "tlw": "index.js"
+    },
+    "author": "Taha Hameed",
+    "license": "ISC",
+    "dependencies": {
+        "cli-spinners": "^2.9.1",
+        "yargs": "^17.7.2",
+        "yargs-interactive": "^3.0.1"
+    },
+    "keywords": [
+        "tailwind",
+        "tailwindcss",
+        "install tailwind",
+        "install tailwindcss",
+        "no framework"
+    ],
+    "description": "Install & initialize tailwindcss in one step"
+}
