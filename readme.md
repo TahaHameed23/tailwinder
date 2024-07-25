@@ -1,6 +1,6 @@
 ## Tailwinder
 
-Installing tailwind when not using a framework that comes pre-installed with is 4 step-process!
+Installing tailwind when not using a framework that comes pre-installed with is a 4 step-process!
 
 Use **tailwinder**, it installs & initialize tailwindcss in just **one** command
 
@@ -10,7 +10,7 @@ Use **tailwinder**, it installs & initialize tailwindcss in just **one** command
 
 ### Steps:
 
-1. Install using `npm i tailwinder`
+1. Install using `npm i -D tailwinder`
 
 2. Run command `tlw install` or `tlw i`.
 
